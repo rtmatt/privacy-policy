@@ -1,0 +1,1 @@
+<a href="#" data-toggle="modal" data-target="#privacy-policy-modal">{{config('rtprivacy-policy.link_text')}}</a>
