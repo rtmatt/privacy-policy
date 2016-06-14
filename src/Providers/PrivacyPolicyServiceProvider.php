@@ -1,6 +1,6 @@
 <?php
 
-namespace RTPrivacyPolicy\Providers;
+namespace RTMatt\PrivacyPolicy\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
