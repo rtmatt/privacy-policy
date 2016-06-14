@@ -1,7 +1,22 @@
+## Installation
+via composer:
+
+``` bash 
+composer require rtmatt/privacy-policy
+```
+
+Add to configuration file (above route service provider)
+
+``` php 
+RTMatt\PrivacyPolicy\Providers\PrivacyPolicyServiceProvider::class
+```
+
+
+
 ## Publish Config
 
 ``` bash 
-php artisan vendor:publish --provider="RTPrivacyPolicy\Providers\PrivacyPolicyServiceProvider" --tag="config"
+php artisan vendor:publish --provider="RTMatt\PrivacyPolicy\Providers\PrivacyPolicyServiceProvider" --tag="config"
 ```
 
 ## Modal Usage
