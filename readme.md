@@ -1,6 +1,7 @@
 ## Dependencies
 * jQuery(loaded before any calls to components)
 * Bootstrap Modal CSS (see below)
+
 ## Installation
 via composer:
 
