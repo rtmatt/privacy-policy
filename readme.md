@@ -1,3 +1,6 @@
+## Dependencies
+* jQuery(loaded before any calls to components)
+* Bootstrap Modal CSS (see below)
 ## Installation
 via composer:
 
@@ -29,6 +32,9 @@ Include the modal and the link in the appropriate layout file (jQuery required, 
 //Include this near the closing body tag
 @include('rtprivacypolicy::modal')
 ```
+
+If you want the modal to not look like a pile of shit (read:work stylisitically) you will need to include bootstraps modal css somewhere and somehow.  
+
 
 
 
